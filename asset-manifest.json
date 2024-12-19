@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/eee_clubs_react/static/css/main.21ef9191.css",
-    "main.js": "/eee_clubs_react/static/js/main.acec870c.js",
+    "main.js": "/eee_clubs_react/static/js/main.ffaed892.js",
     "static/js/488.294f40a1.chunk.js": "/eee_clubs_react/static/js/488.294f40a1.chunk.js",
     "static/media/PTU_Logo-color.png": "/eee_clubs_react/static/media/PTU_Logo-color.cbf71f84879f5ffb9bb6.png",
     "static/media/building.jpg": "/eee_clubs_react/static/media/building.56b3b3d4c4cd1901e06d.jpg",
@@ -10,11 +10,11 @@
     "static/media/logo.svg": "/eee_clubs_react/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/eee_clubs_react/index.html",
     "main.21ef9191.css.map": "/eee_clubs_react/static/css/main.21ef9191.css.map",
-    "main.acec870c.js.map": "/eee_clubs_react/static/js/main.acec870c.js.map",
+    "main.ffaed892.js.map": "/eee_clubs_react/static/js/main.ffaed892.js.map",
     "488.294f40a1.chunk.js.map": "/eee_clubs_react/static/js/488.294f40a1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.21ef9191.css",
-    "static/js/main.acec870c.js"
+    "static/js/main.ffaed892.js"
   ]
 }
