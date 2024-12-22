@@ -22,7 +22,12 @@ function Header() {
           <div class="photo">
             <img src={building} alt="" class="building" />
           </div>
-          <div class="hod-eee flex">
+
+          
+        </div>
+        <div class="red-line bg-red-600"></div>
+      </div>
+      <div class="hod-eee flex">
             <img
               src={hod}
               alt=""
@@ -39,9 +44,6 @@ function Header() {
               </a>
             </div>
           </div>
-        </div>
-        <div class="red-line bg-red-600"></div>
-      </div>
     </header>
     </>
   )

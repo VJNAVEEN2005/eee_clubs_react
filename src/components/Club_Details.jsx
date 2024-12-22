@@ -8,15 +8,21 @@ function Club_Details(props) {
           {props.title}
         </div>
 
-        <div className="flex">
+        <div className="">
           <div class="text-red-600 text-2xl md:text-3xl ml-4 font-semibold popup mt-5">
             Mentor:
           </div>
           <a
-            className="text-black text-2xl md:text-3xl ml-4 font-semibold popup mt-5"
-            href={props.mentor_link}
+            className="text-black text-2xl flex md:text-3xl ml-4 font-semibold popup mt-1"
+            href={props.mentor1_link}
           >
-            {props.mentor}
+            {props.mentor1}
+          </a>
+          <a
+            className="text-black text-2xl flex md:text-3xl ml-4 font-semibold popup mt-1"
+            href={props.mentor2_link}
+          >
+            {props.mentor2}
           </a>
         </div>
 
@@ -25,22 +31,22 @@ function Club_Details(props) {
             <h2 class="font-normal text-xl">
               {/* <ol class="ps-5 mt-2 ml-6 space-y-1 list-decimal list-inside"> */}
 
-              <div class="relative overflow-x-auto shadow-md rounded-lg">
-                <table className="w-full text-sm text-left rtl:text-right text-black">
-                  <tr className="text-xl text-white uppercase bg-red-500">
-                    <th scope="col" className="px-6 py-3">
+              <div class="relative overflow-x-auto shadow-md rounded-lg md:left-5">
+                <table className="w-full text-xs text-left rtl:text-right text-black overflow-hidden">
+                  <tr className="text-base text-white uppercase bg-red-500">
+                    <th scope="col" className="px-4 py-2 border-r border-red-400">
                       Name
                     </th>
-                    <th scope="col" className="px-6 py-3">
+                    <th scope="col" className="px-4 py-2">
                       Year
                     </th>
                   </tr>
 
                   {props.data.map((data) => {
                     return (
-                      <tr className="bg-red-100 border-b hover:bg-red-50">
-                        <th className="px-6 py-4">{data.name}</th>
-                        <th className="px-6 py-4">{data.year}</th>
+                      <tr className="bg-red-100 border-b border-red-200 hover:bg-red-50 hover:scale-105 transition-all">
+                        <th className="px-4 py-3 border-r border-red-200 uppercase">{data.name}</th>
+                        <th className="px-4 py-3">{data.year}</th>
                       </tr>
                     );
                   })}
